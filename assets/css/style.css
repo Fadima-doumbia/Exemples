@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*debut du header*/
+header {
+    width: 100%;
+    background: rgba(0,0,0,.65);
+    position: fixed;
+    height: auto;
+    top: 0;
+    left: 0;
+    padding: 10px
+}
+
+header a.galaxie {
+    display: block;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: black;
+    line-height: 30px
+}
+
+header div.logo {
+    display: flex;
+    justify-content: center;
+    background: red   
+}
+
+header div.logo img{
+    width: 200px;
+    height: 60px
+} 
+
+header ul {
+    width: 240px;
+    height: 30px
+}
+
+header ul li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 1s
+}
+
+header ul li a:hover {
+    background: #ec3655;
+    display: block;
+    border-radius: 5px;
+}
+
+header ul li:first-child {
+    background: #ec3655;
+    border: none
+}
+
+header nav ul li, 
+header nav ul li:first-child, 
+header nav ul li a:hover{
+    border: none;
+    background: transparent
+}
+
+nav.navbar{width: 50%;
+margin: auto}
+
+.navbar-light .navbar-nav .navbar-link{color: white}
+
+video#bgvid{position: fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+right: 0;
+top: 0;
+z-index: -1}
+
+header.row{margin-left: 0;
+margin-right: 0;}
+/*fin du header*/
